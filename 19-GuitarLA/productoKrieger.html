@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuitarLA:Producto_VAI</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__contenedor">
+            <div class="header__barra">
+                   <a href="index.html">
+                        <img class="header__logo" src="img/logo.svg" alt="imagen GuitarLA">
+                   </a>
+                <nav class="navegacion">
+                    <a class="navegacion__enlace" href="index.html">Inicio</a>
+                    <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+                    <a class="navegacion__enlace" href="blog.html">Blog</a>
+                    <a class="navegacion__enlace" href="tienda.html">Tienda</a>
+                </nav><!--navegacion-->
+            </div><!--header__barra-->
+        </div><!--header__contenedor-->
+    </header><!--header-->
+
+    <main class="producto producto__contenedor">
+        <div class="guitarra">
+            <div>
+                <img class="guitarra__imagen" src="img/guitarra_09.jpg" alt="imagen de guitarra">
+            </div>
+            <div class="guitarra__contenido">
+                <h3 class="guitarra__nombre">Krieger</h3>
+                <p class="guitarra__texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus unde illum quia itaque. Id, vero.</p>
+                <p class="guitarra__precio">$299</p>
+                <form class="formulario">
+                    <label class="formulario__label" for="cantidad">Cantidad</label>
+                    <select class="formulario__cantidad" id="cantidad">
+                        <option value="">>--Seleccione--<</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                    <input type="submit"
+                    class="formulario__enviar"
+                    value="Agregar al Carrito"
+                    >
+                </form>
+            </div>
+        </div><!--guitarra-->                            
+    </main><!--productos-->
+
+    <footer class="footer">
+        <div class="footer__grid footer__contenedor">
+            <nav class="footer__navegacion">
+                <a class="footer__enlace" href="inicio.html">Inicio</a>
+                <a class="footer__enlace" href="nosotros.html">Nosotros</a>
+                <a class="footer__enlace" href="blog.html">Blog</a>
+                <a class="footer__enlace" href="tienda.html">Tienda</a>
+            </nav><!--navegacion-->     
+            <p class="footer__copyright">Todos los derechos reservados</p>
+        </div>        
+    </footer>
+</body>
+</html>
